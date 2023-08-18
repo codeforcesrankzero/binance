@@ -6,12 +6,10 @@ Create simple app for order making on binance testnet
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
-git clone https://github.com/codeforcesrankzero/binance
+\\\git clone https://github.com/codeforcesrankzero/binance\\\
 
 Then run cmake --> make
 
