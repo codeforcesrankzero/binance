@@ -1,3 +1,0 @@
-/Users/granenyj/Desktop/binance/CMakeFiles/binance.dir
-/Users/granenyj/Desktop/binance/CMakeFiles/edit_cache.dir
-/Users/granenyj/Desktop/binance/CMakeFiles/rebuild_cache.dir
