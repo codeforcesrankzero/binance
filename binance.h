@@ -9,10 +9,12 @@ namespace Binance {
     const std::string ORDER_URL = "/v3/order";
     const std::string PING_URL = "/v3/ping";
 
+
     class IOrder {
     public:
         virtual std::string GetQuery() const = 0;
     };
+
 
     class LimitOrder : public IOrder {
     public:
@@ -26,6 +28,7 @@ namespace Binance {
         double Price_;
     };
 
+
     class MarketOrder : public IOrder {
     public:
         virtual std::string GetQuery() const override;
@@ -35,6 +38,7 @@ namespace Binance {
         std::string Side_;
         double Quantity_;
     };
+
 
     class BinanceClient {
     public:
