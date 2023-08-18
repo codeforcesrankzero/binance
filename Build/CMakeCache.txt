@@ -14,15 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-BinanceOrder_BINARY_DIR:STATIC=/Users/granenyj/Desktop/binance
-
-//Value Computed by CMake
-BinanceOrder_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-BinanceOrder_SOURCE_DIR:STATIC=/Users/granenyj/Desktop/binance
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -246,30 +237,6 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
-//Path to a file.
-Protobuf_INCLUDE_DIR:PATH=Protobuf_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-Protobuf_LIBRARY_DEBUG:FILEPATH=Protobuf_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_LIBRARY_RELEASE:FILEPATH=Protobuf_LIBRARY_RELEASE-NOTFOUND
-
-//Path to a library.
-Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=Protobuf_LITE_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=Protobuf_LITE_LIBRARY_RELEASE-NOTFOUND
-
-//The Google Protocol Buffers Compiler
-Protobuf_PROTOC_EXECUTABLE:FILEPATH=Protobuf_PROTOC_EXECUTABLE-NOTFOUND
-
-//Path to a library.
-Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=Protobuf_PROTOC_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=Protobuf_PROTOC_LIBRARY_RELEASE-NOTFOUND
-
 //Value Computed by CMake
 binance_BINARY_DIR:STATIC=/Users/granenyj/Desktop/binance
 
@@ -277,7 +244,7 @@ binance_BINARY_DIR:STATIC=/Users/granenyj/Desktop/binance
 binance_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-binance_SOURCE_DIR:STATIC=/Users/granenyj/Desktop/binance
+binance_SOURCE_DIR:STATIC=/Users/granenyj/Desktop/binance/Build
 
 
 ########################
@@ -344,11 +311,9 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/Users/granenyj/Desktop/binance
+CMAKE_HOME_DIRECTORY:INTERNAL=/Users/granenyj/Desktop/binance/Build
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -435,22 +400,6 @@ OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_INCLUDE_DIR
-Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LIBRARY_DEBUG
-Protobuf_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LIBRARY_RELEASE
-Protobuf_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LITE_LIBRARY_DEBUG
-Protobuf_LITE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LITE_LIBRARY_RELEASE
-Protobuf_LITE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_EXECUTABLE
-Protobuf_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_DEBUG
-Protobuf_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_RELEASE
-Protobuf_PROTOC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
