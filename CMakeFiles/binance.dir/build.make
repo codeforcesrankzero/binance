@@ -53,7 +53,7 @@ RM = /usr/local/Cellar/cmake/3.27.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/granenyj/Desktop/binance
+CMAKE_SOURCE_DIR = /Users/granenyj/Desktop/binance/Build
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/granenyj/Desktop/binance
@@ -123,6 +123,6 @@ CMakeFiles/binance.dir/clean:
 .PHONY : CMakeFiles/binance.dir/clean
 
 CMakeFiles/binance.dir/depend:
-	cd /Users/granenyj/Desktop/binance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance/CMakeFiles/binance.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/granenyj/Desktop/binance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/granenyj/Desktop/binance/Build /Users/granenyj/Desktop/binance/Build /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance /Users/granenyj/Desktop/binance/CMakeFiles/binance.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/binance.dir/depend
 
