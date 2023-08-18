@@ -1,6 +1,4 @@
-# binance
-Binance test task for interview
-# Binance tassk
+# Binance task
 
 Create simple app for order making on binance testnet
 
